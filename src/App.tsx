@@ -5,7 +5,7 @@ function App() {
     <>
       <header className='select-none'>
         <h1 className='text-center text-3xl font-bold font-figtree mb-6 text-wrap w-64 mx-auto'>
-          Blog Preview Card{' '}
+          Blog Preview Card
           <a href='https://www.frontendmentor.io/' className='hover:text-white'>
             Frontendmentor.io
           </a>
