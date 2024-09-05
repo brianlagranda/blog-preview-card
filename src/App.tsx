@@ -16,7 +16,7 @@ function App() {
       </main>
       <footer>
         <p className='text-center text-xl font-bold font-figtree mt-6'>
-          Coded by{' '}
+          Coded by
           <a
             href='https://github.com/brianlagranda'
             className='hover:text-white'
