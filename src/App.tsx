@@ -3,13 +3,16 @@ import BlogCard from './components/BlogCard';
 function App() {
   return (
     <>
-      <header className='select-none'>
-        <h1 className='text-center text-3xl font-bold font-figtree mb-6 text-wrap w-64 mx-auto'>
+      <header className='select-none flex flex-col justify-center items-center'>
+        <h1 className='text-center text-3xl font-bold font-figtree text-wrap mx-auto'>
           Blog Preview Card
-          <a href='https://www.frontendmentor.io/' className='hover:text-white'>
-            Frontendmentor.io
-          </a>
         </h1>
+        <a
+          href='https://www.frontendmentor.io/'
+          className='hover:text-white text-center text-3xl font-bold font-figtree text-wrap mx-auto mb-6'
+        >
+          Frontendmentor.io
+        </a>
       </header>
       <main>
         <BlogCard />
@@ -19,7 +22,7 @@ function App() {
           Coded by
           <a
             href='https://github.com/brianlagranda'
-            className='hover:text-white'
+            className='hover:text-white pl-1'
           >
             Brian Lagranda
           </a>
